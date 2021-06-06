@@ -14,15 +14,19 @@ This is an E-commerece project for buying books online where admin can add the a
     Password: 12345Aa6.
     ```
  4. Open [config_paytm.php](//User-Interface/payment/lib/config_paytm.php) .You need to change the Merchant key and Merchant ID.
- ``` 
-define('PAYTM_ENVIRONMENT', 'TEST'); // PROD
-define('PAYTM_MERCHANT_KEY', 'ADD Merchant key'); //Change this constant's value with Merchant key received from Paytm.
-define('PAYTM_MERCHANT_MID', 'ADD MerchantID'); //Change this constant's value with MID (Merchant ID) received from Paytm.
-define('PAYTM_MERCHANT_WEBSITE', 'WEBSTAGING'); //Change this constant's value with Website name received from Paytm.
-
-```
+    ``` 
+    define('PAYTM_ENVIRONMENT', 'TEST'); // PROD
+    define('PAYTM_MERCHANT_KEY', 'ADD Merchant key'); //Change this constant's value with Merchant key received from Paytm.
+    define('PAYTM_MERCHANT_MID', 'ADD MerchantID'); //Change this constant's value with MID (Merchant ID) received from Paytm.
+    define('PAYTM_MERCHANT_WEBSITE', 'WEBSTAGING'); //Change this constant's value with Website name received from Paytm.
+    ```
  
- 7. Once this is done, go to the url of your website and it should be up and running.
+ 5. Once this is done, go to the url of your website and it should be up and running.
+
+## DEMO 
+> DEMO USER INTERFACE https://bit.ly/3coKR7z
+
+
 
 ## Technologies Used
 
