@@ -8,8 +8,8 @@
 */
 
 define('PAYTM_ENVIRONMENT', 'TEST'); // PROD
-define('PAYTM_MERCHANT_KEY', '5b5N#UpzaUfhuUae'); //Change this constant's value with Merchant key received from Paytm.
-define('PAYTM_MERCHANT_MID', 'gcPava98830569881679'); //Change this constant's value with MID (Merchant ID) received from Paytm.
+define('PAYTM_MERCHANT_KEY', 'YourMerchant key'); //Change this constant's value with Merchant key received from Paytm.
+define('PAYTM_MERCHANT_MID', 'YourMerchantID'); //Change this constant's value with MID (Merchant ID) received from Paytm.
 define('PAYTM_MERCHANT_WEBSITE', 'WEBSTAGING'); //Change this constant's value with Website name received from Paytm.
 
 $PAYTM_STATUS_QUERY_NEW_URL='https://securegw-stage.paytm.in/merchant-status/getTxnStatus';
