@@ -23,6 +23,14 @@ This is an E-commerece project for buying books online where admin can add the a
  
  5. Once this is done, go to the url of your website and it should be up and running.
 
+## Functionalities 
+  - Admin Panel
+  - Cart Management
+  - Login Management
+  - Payment Gateway
+  - Order Tracking
+  - Bill Printing Functionality
+  
 ## DEMO 
 > DEMO USER INTERFACE https://bit.ly/3coKR7z
 
