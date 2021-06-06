@@ -1,0 +1,160 @@
+*{
+margin:0;
+padding:0;
+font-family:Century Gothic;
+scroll-behavior: smooth;
+}
+
+/*---- NAVIGATION BAR---*/
+
+#nav-bar{
+	position:sticky;
+	top:0;
+	z-index:10;
+}
+.navbar-brand img{
+	float:left;
+    margin-top:12px;
+    width:200px;
+    height:60px;
+	padding-left:40px;
+}
+.navbar-nav li{
+	padding:0 5px;
+}
+.navbar-nav li a{
+	float:right;
+	text-align:left;
+	padding:5px 20px!important;
+	color:white!important;
+	text-decoration:none;
+    border:1px solid transparent;
+    border-radius:6%;
+    transition:0.6s ease;
+}
+#nav-bar ul li a:hover{
+    
+	background-color:#fff;
+    color:#000!important;
+}
+#nav-bar ul li.active a{
+	background-color:#fff;
+	color:#000!important;
+}
+
+.navbar-toggle{
+	border:none!important;
+	background-color:#fff!important;
+}
+
+.nav-link{
+	color:white;
+	font-weight:600;
+	font-size:16px;
+}
+header{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../pic/book1.jpg);
+height:600px;
+background-size: cover;
+background-position:center;
+}
+
+.title{
+position:absolute;
+padding-top:5%;
+padding-left:10%;
+}
+.title h1{
+color:#fff;
+font-size:8vw;
+}
+.title p{
+color:#fff;
+font-size:4vw;
+}
+
+
+/*--------------------------------------------------*/
+
+
+.container{
+	width:100%;
+	margin-top:5%;
+	font-family:snas-serif;
+	letter-spacing:1px;
+	
+}
+.container h2{
+	background:#ff7600;
+	color:#fff;
+	width:200px;
+	font-size:24px;
+	padding:5px;
+	margin-bottom:2%;
+	height:40px;
+}
+.container h2::after{
+	content:'';
+	border-top:40px solid #ff7600;
+	border-right:40px solid transparent;
+	position:relative;
+	left:42px;
+	top:35px;
+}
+
+/*------------------------------------------------*/
+.error{
+width:100%;
+padding:5px;
+border:2px solid #e60000;
+color:;
+background:#ff3333;
+border-radius:4px;
+text-align:center;
+}
+
+
+@media screen and (max-width:600px) {
+  
+.title h1{
+color:#fff;
+font-size:10vw;
+font-weight:bold;
+}
+.title p{
+color:#fff;
+font-size:25px;
+}
+header{
+height:600px;
+}
+}
+/*Menu*/
+
+.main-container{
+	margin:1% 8%;
+	//padding:1%;
+	display:flex;
+	flex-wrap:wrap;
+}
+.main-container >div{
+	margin:2% 2%;
+	padding:2%;
+	border:1px solid silver;
+ 	width:29%;
+}
+
+.line-flex{
+	display:flex;
+	width:100%;
+	margin-bottom:5%;
+	align-self:end;
+	justify-content:space-between;
+}
+@media screen and (max-width:750px) {
+.main-container{
+	margin:5% 2%;}
+.main-container >div{
+	width:46%;
+	}
+}

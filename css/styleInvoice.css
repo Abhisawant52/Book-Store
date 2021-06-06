@@ -1,0 +1,106 @@
+
+body{
+	background:#ff9900;
+}
+header{
+	display:flex;
+	margin:1% 5%;
+	color:white;
+	justify-content:space-between;
+}
+.main-container{
+	margin:1% 5%;
+	padding:2% 2%;
+	
+}
+.main-header{
+	display:flex;
+	justify-content:space-between;
+}
+.transcation-status{
+	border-style:dotted;
+	margin:2% 0;
+	padding:2px;
+}
+.billing-content{
+	padding:1% 1%;
+	display:flex;
+	justify-content:flex-start;
+}
+.billing-content > div{ 
+	flex : 1;
+}
+.order-summary{
+	padding:2% 0;
+}
+.redirect{
+	padding:2%;
+}
+
+.status-container{
+margin:2% 0 ;
+padding-left:2%;
+display:flex;
+}
+.content1{
+	flex:2;
+	display:flex;
+	flex-direction:column;
+}
+
+
+.content-icons{
+	display:flex;
+	 align-items:center;
+}
+.content-icons i{
+	color:white;
+	background-color:#555;
+	border-radius:50%;
+	margin:1% 0;
+	padding:3%;
+}
+.join{
+  height:6px;
+  width: 13.8%;
+  background-color:#555;
+}
+.content-title {
+	display:flex;
+	align-items:center;
+}
+.content-title > span{
+	flex:1;
+}
+.status-container .content2{
+	flex:1;
+}
+.green{
+	background-color:#00b300!important;
+}
+.note{
+	color:red;
+}
+
+.back-btn{
+	margin-left:80%;
+	color:blue;
+}
+
+@media screen and (max-width:600px) {
+  
+	header{
+		flex-direction:column-reverse;
+		justify-content:flex-start;
+	}
+	header h1{
+		font-size:25px!important;
+	}
+	.main-header, .billing-content{
+		flex-direction:column;
+		justify-content:flex-start;
+	}
+	.main-header button{
+		width: max-content;
+	}
+}
